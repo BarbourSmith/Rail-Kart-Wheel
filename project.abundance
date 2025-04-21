@@ -1,13 +1,47 @@
 {
     "atomType": "Molecule",
-    "name": "Rail Kart Wheel",
+    "name": "Rail-Kart-Wheel",
     "x": 0,
     "y": 0,
     "uniqueID": 1745214454208,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1745214513282,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Wheel",
+            "x": 0.26653439153439157,
+            "y": 0.5598885793871866,
+            "uniqueID": 1745214518801,
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1745214518896,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
